@@ -1,4 +1,4 @@
-public class ObservadorUsuario implements Observador {
+public class ObservadorPrimeVideo implements Observador {
 
     @Override
     public void notificar(String mensagem) {

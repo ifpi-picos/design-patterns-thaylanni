@@ -6,7 +6,7 @@ public class Main {
         Notificador notificador = new Notificador();
 
         // Adiciona um observador
-        ObservadorUsuario observadorPrimeVideo = new ObservadorUsuario();
+        ObservadorPrimeVideo observadorPrimeVideo = new ObservadorPrimeVideo();
         notificador.adicionarObservador(observadorPrimeVideo);
 
         // Notifica o observador
