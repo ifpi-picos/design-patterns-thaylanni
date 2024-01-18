@@ -1,4 +1,4 @@
-public class ObservadorCliente implements Observador {
+public class ObservadorUsuario implements Observador {
 
     @Override
     public void notificar(String mensagem) {
