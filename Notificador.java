@@ -12,10 +12,6 @@ public class Notificador {
         this.observadores.add(observador);
     }
 
-    public void removerObservador(Observador observador) {
-        this.observadores.remove(observador);
-    }
-
     public void notificar(String mensagem) {
         for (Observador observador : this.observadores) {
             observador.notificar(mensagem);
